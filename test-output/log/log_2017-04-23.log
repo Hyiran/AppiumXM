@@ -1,0 +1,37 @@
+[2017-04-23 11:41:52,171] INFO  com.xiaoM.Common.Utils.TestListener [ Start ] 测试用例: APP
+[2017-04-23 11:41:52,379] INFO  com.xiaoM.Common.Utils.Run 设备： device1 开始执行测试
+[2017-04-23 11:41:52,379] INFO  com.xiaoM.Common.Utils.Run 设备： device1 启动appium server
+[2017-04-23 11:41:52,379] INFO  com.xiaoM.Common.Utils.Run 设备： device1 配置信息：Mobile Driver:device1
+[2017-04-23 11:41:52,380] INFO  com.xiaoM.Common.Utils.Run 设备： device1 Appium Server:http://127.0.0.1:4723/wd/hub
+[2017-04-23 11:41:52,380] INFO  com.xiaoM.Common.Utils.Run 设备： device1 设备Id：209e61b5
+[2017-04-23 11:42:20,724] INFO  com.xiaoM.Common.Utils.Run 设备： device1 执行用例：APP
+[2017-04-23 11:42:21,421] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:42:21,645] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 点击控件
+[2017-04-23 11:42:22,866] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击取消按钮 方式 :  ByXpath [ //android.widget.Button[@text='取消'] ]
+[2017-04-23 11:42:24,278] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 点击控件
+[2017-04-23 11:42:25,592] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 模拟点击返回键
+[2017-04-23 11:42:27,063] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 等待5秒
+[2017-04-23 11:42:32,583] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 执行外部脚本：Demo
+[2017-04-23 11:42:32,585] INFO  com.xiaoM.Common.Utils.Run 设备： device1 执行用例：APP成功
+[2017-04-23 11:42:37,368] INFO  com.xiaoM.Common.Utils.TestListener [ Passed ]测试用例: APP
+[2017-04-23 11:42:37,373] INFO  com.xiaoM.Common.Utils.TestListener [ Start ] 测试用例: HybrisAPP
+[2017-04-23 11:42:37,499] INFO  com.xiaoM.Common.Utils.Run 设备： device1 开始执行测试
+[2017-04-23 11:42:37,500] INFO  com.xiaoM.Common.Utils.Run 设备： device1 启动appium server
+[2017-04-23 11:42:37,501] INFO  com.xiaoM.Common.Utils.Run 设备： device1 配置信息：Mobile Driver:device1
+[2017-04-23 11:42:37,501] INFO  com.xiaoM.Common.Utils.Run 设备： device1 Appium Server:http://127.0.0.1:4723/wd/hub
+[2017-04-23 11:42:37,501] INFO  com.xiaoM.Common.Utils.Run 设备： device1 设备Id：209e61b5
+[2017-04-23 11:42:59,483] INFO  com.xiaoM.Common.Utils.Run 设备： device1 执行用例：HybrisAPP
+[2017-04-23 11:43:00,113] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:00,729] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:01,301] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:01,953] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:02,530] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:03,098] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:03,733] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:04,345] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:04,945] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:05,528] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:05,645] ERROR com.xiaoM.appium.utils.AppiumElementAction 设备： device1 【failed】  等待:5s 找不到元素：点击按钮 方式  Control:[ ById::com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:07,137] ERROR com.xiaoM.appium.utils.AppiumScreenShot 错误截图：D:\work\workspace\AppiumXM\test-output\snapshot/device1-HybrisAPP.jpg
+[2017-04-23 11:43:07,137] ERROR com.xiaoM.Common.Utils.Run 设备： device1 执行用例：HybrisAPP出错，正在关闭driver，准备执行下一条用例
+[2017-04-23 11:43:11,703] ERROR com.xiaoM.Common.Utils.TestListener [ Failed ] 测试用例: HybrisAPP

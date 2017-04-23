@@ -1,0 +1,9 @@
+[2017-04-23 11:42:20,724] INFO  com.xiaoM.Common.Utils.Run 设备： device1 执行用例：APP
+[2017-04-23 11:42:21,421] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:42:21,645] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 点击控件
+[2017-04-23 11:42:22,866] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击取消按钮 方式 :  ByXpath [ //android.widget.Button[@text='取消'] ]
+[2017-04-23 11:42:24,278] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 点击控件
+[2017-04-23 11:42:25,592] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 模拟点击返回键
+[2017-04-23 11:42:27,063] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 等待5秒
+[2017-04-23 11:42:32,583] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 执行外部脚本：Demo
+[2017-04-23 11:42:32,585] INFO  com.xiaoM.Common.Utils.Run 设备： device1 执行用例：APP成功

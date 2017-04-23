@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="com.xiaoM.Common.Utils.TestListener"/>
+    <listener class-name="com.xiaoM.Report.utils.TestReport"/>
+  </listeners>
+  <test name="TestCase(failed)" parallel="classes">
+    <classes>
+      <class name="com.xiaoM.BeginScript.BeginScript">
+        <methods>
+          <include name="run" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.xiaoM.BeginScript.BeginScript -->
+    </classes>
+  </test> <!-- TestCase(failed) -->
+</suite> <!-- Failed suite [Suite] -->

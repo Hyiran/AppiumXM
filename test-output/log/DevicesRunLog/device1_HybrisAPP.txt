@@ -1,0 +1,14 @@
+[2017-04-23 11:42:59,483] INFO  com.xiaoM.Common.Utils.Run 设备： device1 执行用例：HybrisAPP
+[2017-04-23 11:43:00,113] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:00,729] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:01,301] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:01,953] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:02,530] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:03,098] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:03,733] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:04,345] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:04,945] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:05,528] INFO  com.xiaoM.appium.utils.AppiumElementAction 设备： device1 查找元素：点击按钮 方式 :  ById [ com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:05,645] ERROR com.xiaoM.appium.utils.AppiumElementAction 设备： device1 【failed】  等待:5s 找不到元素：点击按钮 方式  Control:[ ById::com.testerhome.webview:id/next_page ]
+[2017-04-23 11:43:07,137] ERROR com.xiaoM.appium.utils.AppiumScreenShot 错误截图：D:\work\workspace\AppiumXM\test-output\snapshot/device1-HybrisAPP.jpg
+[2017-04-23 11:43:07,137] ERROR com.xiaoM.Common.Utils.Run 设备： device1 执行用例：HybrisAPP出错，正在关闭driver，准备执行下一条用例

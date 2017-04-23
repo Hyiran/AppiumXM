@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite</th></tr><tr><td><a href="#t0">TestCase</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">79,567</td><td></td><td></td></tr></table><table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestCase &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.xiaoM.BeginScript.BeginScript</td><td><a href="#m0">run</a></td><td rowspan="1">1492918957369</td><td rowspan="1">34294</td></tr><tr><th colspan="4">TestCase &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.xiaoM.BeginScript.BeginScript</td><td><a href="#m1">run</a></td><td rowspan="1">1492918912165</td><td rowspan="1">45200</td></tr></tbody></table><h2>TestCase</h2><h3 id="m0">com.xiaoM.BeginScript.BeginScript#run</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>APP</td><td>HybrisAPP</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.xiaoM.appium.utils.AppiumElementAction$1@47edc03b (tried for 5 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at com.xiaoM.appium.utils.AppiumElementAction.waitForElement(AppiumElementAction.java:120)
+	at com.xiaoM.appium.utils.AppiumElementAction.elementOperation(AppiumElementAction.java:250)
+	at com.xiaoM.appium.utils.AppiumElementAction.executeAppiumAction(AppiumElementAction.java:471)
+	at com.xiaoM.Common.Utils.Run.testCase(Run.java:54)
+	at com.xiaoM.BeginScript.BeginScript.run(BeginScript.java:25)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 114 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b325d5&apos;, time: &apos;2017-03-10 09:10:29 +0000&apos;
+System info: host: &apos;DESKTOP-UJIO8EO&apos;, ip: &apos;192.168.139.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities [{app=D:\work\workspace\AppiumXM\apps\webview.apk, appPackage=com.testerhome.webview, deviceScreenSize=540x960, networkConnectionEnabled=true, noSign=true, warnings={}, databaseEnabled=false, deviceName=209e61b5, platform=LINUX, deviceUDID=209e61b5, appActivity=com.testerhome.webview.MainActivity, desired={app=D:\work\workspace\AppiumXM\apps\webview.apk, appPackage=com.testerhome.webview, appActivity=com.testerhome.webview.MainActivity, noSign=true, platformVersion=4.4.2, automationName=Appium, unicodeKeyboard=true, platformName=Android, udid=209e61b5, deviceName=209e61b5, resetKeyboard=true}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=GT-I9192, unicodeKeyboard=true, platformName=Android, udid=209e61b5, deviceManufacturer=samsung, resetKeyboard=true}]
+Session ID: ecde0409-f298-4822-9571-b3b91f857e51
+*** Element info: {Using=id, value=com.testerhome.webview:id/next_page}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:420)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at com.xiaoM.appium.utils.AppiumElementAction.getElement(AppiumElementAction.java:40)
+	at com.xiaoM.appium.utils.AppiumElementAction$1.apply(AppiumElementAction.java:124)
+	at com.xiaoM.appium.utils.AppiumElementAction$1.apply(AppiumElementAction.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 18 more
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.xiaoM.BeginScript.BeginScript#run</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>APP</td><td>APP</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

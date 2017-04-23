@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="4">
+	<listeners>
+		<listener class-name="com.xiaoM.Common.Utils.TestListener" />
+		<listener class-name="com.xiaoM.Report.utils.TestReport" />
+	</listeners>
+	<test name="TestCase">
+		<classes>
+			<class name="com.xiaoM.BeginScript.BeginScript" />
+			<!-- <class name="com.xiaoM.BeginScript.BeginScript2" />
+			<class name="com.xiaoM.BeginScript.BeginScript3" />
+			<class name="com.xiaoM.BeginScript.BeginScript4" />  -->
+		</classes>
+	</test>
+</suite> <!-- Suite -->
